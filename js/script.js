@@ -22,6 +22,9 @@ function temaOscuro() {
   document.getElementById("registros").setAttribute("class", "entradaoscuro");
   
   document.getElementById("migapan").setAttribute("class", "position-relative migasoscuro rounded-3 mt-4");
+  document.getElementById("sesion").setAttribute("class", "form-check-label text-white");
+  document.getElementById("usuario").setAttribute("class", "form-label text-white");
+  document.getElementById("contrasena").setAttribute("class", "form-label text-white");
   console.log("sale");
 }
 
@@ -37,6 +40,9 @@ function temaClaro() {
   document.getElementById("registros").setAttribute("class", "");
   
   document.getElementById("migapan").setAttribute("class", "position-relative migas rounded-3 mt-4");
+  document.getElementById("sesion").setAttribute("class", "form-check-label");
+  document.getElementById("usuario").setAttribute("class", "form-label");
+  document.getElementById("contrasena").setAttribute("class", "form-label");
   console.log("sale");
 }
 
