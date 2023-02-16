@@ -109,21 +109,21 @@
               style="--bs-breadcrumb-divider: '>'"
               aria-label="breadcrumb"
             >
-              <li class="breadcrumb-item">
+              <li class="breadcrumb-item fw-bold">
                 <a id="migalink" href="registro.html">Registro</a>
               </li>
-              <li class="breadcrumb-item active" aria-current="page">
+              <li class="breadcrumb-item active fw-bold" aria-current="page">
                 Formulario
               </li>
             </ol>
           </div>
           <div class="entrada rounded-3 mb-5">
             <div id="registros">
-              <h4 class="text-center mb-3">Registro</h4>
+              <h3 class="text-center mb-3">Registro</h3>
               <form>
                 <div class="row mx-auto">
                   <div class="col">
-                    <label id="nombre" class="form-label"
+                    <label for="nombre_formulario" id="nombre" class="form-label"
                       >Nombre <i class="bi bi-person-fill"></i
                     ></label>
                     <input
@@ -134,7 +134,7 @@
                     />
                   </div>
                   <div class="col mb-3">
-                    <label id="apellidos" class="form-label"
+                    <label for="apellidos_formulario" id="apellidos" class="form-label"
                       >Apellidos <i class="bi bi-person-plus-fill"></i
                     ></label>
                     <input
@@ -145,7 +145,7 @@
                     />
                   </div>
                   <div class="col-auto">
-                    <label id="email" class="form-label"
+                    <label for="email_formulario" id="email" class="form-label"
                       >Email <i class="bi bi-envelope-at-fill"></i
                     ></label>
                     <input
@@ -158,7 +158,7 @@
                 </div>
                 <div class="row mx-auto">
                   <div class="col">
-                    <label id="direccion" class="form-label"
+                    <label for="direccion_formulario" id="direccion" class="form-label"
                       >Dirección <i class="bi bi-map-fill"></i
                     ></label>
                     <input
@@ -170,7 +170,7 @@
                     />
                   </div>
                   <div class="col-auto mb-3">
-                    <label id="postal" class="form-label"
+                    <label for="codigoPostal_formulario" id="postal" class="form-label"
                       >Código Postal <i class="bi bi-mailbox2"></i
                     ></label>
                     <input
@@ -186,7 +186,7 @@
 
                 <div class="row mx-auto">
                   <div class="col-auto mb-3">
-                    <label class="form-label">Comunidad Autónoma</label>
+                    <label for="comunidadAutonoma_formulario" class="form-label">Comunidad Autónoma</label>
                     <select aria-label="Comunidad Autónoma" class="form-select" name="comunidad" id="comunidad">
                       <option>Selecciona una comunidad</option>
                       <option>Andalucia</option>
@@ -196,7 +196,7 @@
                     </select>
                   </div>
                   <div class="col mb-3">
-                    <label class="form-label">Provincia</label>
+                    <label for="provincia_formulario" class="form-label">Provincia</label>
                     <select aria-label="Provincia" class="form-select" name="Provincia" id="provincia">
                       <option>Selecciona una provincia</option>
                       <option>opcion1</option>
@@ -206,7 +206,7 @@
                     </select>
                   </div>
                   <div class="col-auto mb-3">
-                    <label class="form-label">Ciudad</label>
+                    <label for="ciudad_formulario" class="form-label">Ciudad</label>
                     <select aria-label="Ciudad" class="form-select" name="ciudad" id="ciudad">
                       <option>Selecciona una ciudad</option>
                       <option>opcion1</option>
@@ -218,14 +218,14 @@
                 </div>
 
                 <div class="mx-3 mb-3">
-                  <label class="form-label"
+                  <label for="biografia_formulario" class="form-label"
                     >Biografía <i class="bi bi-vector-pen"></i
                   ></label>
                   <textarea aria-label="biografia" class="form-control" cols="30" rows="10"></textarea>
                 </div>
 
                 <div class="mx-3">
-                  <label for="basic-url" class="form-label">Instagram</label>
+                  <label for="url_instagram" class="form-label">Instagram</label>
                   <div class="input-group mb-5">
                     <span class="input-group-text" id="basic-addon3"
                       >https://instagram.com/</span
