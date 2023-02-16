@@ -12,7 +12,7 @@ function temaOscuro() {
   document.querySelector("nav").setAttribute("class", "d-flex navbar navbar-expand-md rounded-2 row navoscuro");
   document.querySelector("footer").setAttribute("class", "position-relative p-5 footeroscuro");
   document.getElementById("logowe").setAttribute("src", "images/imagerunningoscuro.svg");
-  document.getElementById("migalink").setAttribute("class", "link-dark fw-bold");
+  
   document.getElementById("contenido").setAttribute("class", "container text-center rounded-2 cuerpooscuro");
   document.getElementById("eventos").setAttribute("class", "rounded-3 mb-5 entradaoscuro");
   document.getElementById("carreras").setAttribute("class", "rounded-3 mb-5 entradaoscuro");
@@ -32,7 +32,7 @@ function temaClaro() {
   document.querySelector("nav").setAttribute("class", "d-flex navbar navbar-expand-md rounded-2 row");
   document.querySelector("footer").setAttribute("class", "position-relative p-5");
   document.getElementById("logowe").setAttribute("src", "images/imagerunning.svg");
-  document.getElementById("migalink").setAttribute("class", "link-primary fw-bold");
+  
   document.getElementById("contenido").setAttribute("class", "container text-center rounded-2 cuerpo");
   document.getElementById("eventos").setAttribute("class", "rounded-3 mb-5 entrada");
   document.getElementById("carreras").setAttribute("class", "rounded-3 mb-5 entrada");

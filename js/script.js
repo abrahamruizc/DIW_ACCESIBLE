@@ -17,7 +17,7 @@ function temaOscuro() {
   document.querySelector("nav").setAttribute("class", "d-flex navbar navbar-expand-md rounded-2 row navoscuro");
   document.querySelector("footer").setAttribute("class", "position-relative p-5 footeroscuro");
   document.getElementById("logowe").setAttribute("src", "images/imagerunningoscuro.svg");
-  document.getElementById("migalink").setAttribute("class", "link-dark fw-bold");
+  
   document.getElementById("contenido").setAttribute("class", "row row-cols-3 cuerpooscuro");
   document.getElementById("registros").setAttribute("class", "entradaoscuro");
   
@@ -35,7 +35,7 @@ function temaClaro() {
   document.querySelector("nav").setAttribute("class", "d-flex navbar navbar-expand-md rounded-2 row");
   document.querySelector("footer").setAttribute("class", "position-relative p-5");
   document.getElementById("logowe").setAttribute("src", "images/imagerunning.svg");
-  document.getElementById("migalink").setAttribute("class", "link-primary fw-bold");
+  
   document.getElementById("contenido").setAttribute("class", "row row-cols-3 cuerpo");
   document.getElementById("registros").setAttribute("class", "");
   
